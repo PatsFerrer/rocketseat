@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Poppins:wght@300;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5D8EA;
+    font-family: inter;
+}
+
+main {
+    background: #FFFFFF;
+    border-radius: 40px;
+    width: 795px;
+    height: 629px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 83px;
+    
+}
+
+span#barra-rolagem {
+    background-color: #E5D8EA;;
+    height: 15px;
+    width: 168px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin-top: 24px;
+}
+
+div.titulo {
+    color: #372D3B;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    width: 683px;
+}
+
+div.titulo h1 {
+    font-size: 40px;
+    line-height: 48.41px;
+}
+
+div.titulo span {
+    color: #864293;
+}
+
+div.titulo p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+div.carro {
+    height: 170px;
+    
+    display: flex;
+    align-items: flex-start;
+    gap: 105px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.carro .placa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12.33px;
+    flex: none;
+}
+
+div.carro p#placa {
+    color: #372D3B;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+div.carro p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #372D3B;
+}
+
+.caixa-de-texto {
+    width: 683px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.caixa-de-texto input {
+    width: 516.92px;
+    height: 64px;
+    background: #F5EDF7;
+    border-radius: 24px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    padding-left: 29px;
+}
+
+.caixa-de-texto input::-webkit-input-placeholder {
+    color:#000000;
+}
+
+.caixa-de-texto .icones {
+    float: right;
+    display: flex;
+    gap: 23px;
+}
+
+.caixa-de-texto .icones span.material-symbols-outlined {
+    font-size: 55px; 
+}
+
+.caixa-de-texto .icones span.material-symbols-outlined:hover {
+   cursor: pointer;
+   transform: scale(1.10);
+   transition: 0.2s ease-in-out;
+   color: #864293;
+}

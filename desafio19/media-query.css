@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px) {
+
+    main {
+        width: 90%;
+        height: 460px;
+        gap: 45px;
+    }
+
+    span#barra-rolagem {
+        height: 12px;
+        width: 140px;
+    }
+
+    div.titulo {
+        color: #372D3B;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        width: 90%;
+    }
+
+    div.titulo h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    div.titulo p {
+        font-size: 18px;
+    }
+
+    div.carro {
+        width: 90%;
+        height: 107px;
+        gap: 23px;
+    }
+
+    div.carro img {
+        width: 50%;
+    }
+
+    .carro .placa {
+        gap: 6.33px;
+        line-height: 3px;
+    }
+
+    div.carro p#placa {
+        font-size: 29px;
+        line-height: 30px;
+    }
+
+    div.carro p {
+        font-size: 16px;
+    }
+
+    .caixa-de-texto {
+        width: 90%;
+        gap: 3px;
+    }
+
+    .caixa-de-texto input {
+        width: 90%;
+        height: 35px;
+        font-size: 16px;
+        padding-left: 23px;
+    }
+
+    .caixa-de-texto .icones {
+        float: right;
+        display: flex;
+        gap: 3px;
+    }
+
+    .caixa-de-texto .icones span.material-symbols-outlined {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:795px) {
+
+    main {
+        width: 90%;
+        height: 460px;
+        gap: 40px;
+    }
+
+    span#barra-rolagem {
+        background-color: #E5D8EA;
+        height: 12px;
+    }
+
+    div.titulo {
+        color: #372D3B;
+        display: flex;
+        flex-direction: column;
+
+        width: 90%;
+    }
+
+    div.titulo h1 {
+        font-size: 29px;
+        line-height: 48.41px;
+    }
+
+    div.titulo p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    div.carro {
+        width: 90%;
+        height: 107px;
+        gap: 72px;
+    }
+
+    div.carro img {
+        width: 240px;
+    }
+
+    .carro .placa {
+        gap: 6.33px;
+        line-height: 3px;
+    }
+
+    div.carro p#placa {
+        font-size: 38px;
+    }
+
+    div.carro p {
+        font-size: 20px;
+    }
+
+    .caixa-de-texto {
+        width: 90%;
+        gap: 3px;
+    }
+
+
+    .caixa-de-texto input {
+        width: 90%;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 23px;
+    }
+
+    .caixa-de-texto .icones {
+        float: right;
+        display: flex;
+        gap: 3px;
+    }
+
+    .caixa-de-texto .icones span.material-symbols-outlined {
+        font-size: 35px;
+}
+}
