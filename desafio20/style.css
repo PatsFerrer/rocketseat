@@ -52,7 +52,7 @@ img {
 
 .grid {
     display: grid;
-    gap: 3.2rem;
+    gap: 1.2rem;
 }
 
 .model-1 .container:nth-child(1) {
