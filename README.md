@@ -9,3 +9,7 @@
 <p>
     <a target="_blank" href="https://patsferrer.github.io/rocketseat/desafio19/index.html">Desafio 19</a> (Um widget de transporte)
 </p>
+
+<p>
+    <a target="_blank" href="https://patsferrer.github.io/rocketseat/desafio20/index.html">Desafio 20</a> (Uma galeria com hover)
+</p>
